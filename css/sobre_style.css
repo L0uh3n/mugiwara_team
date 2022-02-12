@@ -68,7 +68,7 @@ header {
 }
 
 .content-main {
-    padding-top: 60px;
+    padding-top: 50px;
 }
 
 .main-componentes {
@@ -83,6 +83,10 @@ header {
 
 .persons {
     margin: 30px 25px 0 0;
+}
+
+figcaption {
+    padding: 20px 0 50px 0;
 }
 
 img {
