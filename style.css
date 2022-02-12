@@ -1,0 +1,108 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    font-size: 100%;
+    background-image: linear-gradient(50deg, #F0A500 0%, #082032 100%);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px 0 20px 20px;
+    background-color: #082032;
+}
+
+.logo {
+    width: 40%;
+}
+
+.logo h2 {
+    margin-left: 50px;
+}
+
+.nav-header {
+    width: 60%;
+}
+
+.nav-header ul {
+    list-style: none;
+    float: right;
+}
+
+.nav-header li {
+    font-size: 16px;
+    display: inline-block;
+}
+
+.nav-header a {
+    text-decoration: none;
+    color: white;
+    padding: 26px;
+}
+
+.nav-header a:hover {
+    color: red;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.left-content {
+    width: 40%;
+}
+
+.left-content img {
+    width: 100%;
+    height: 78vh;
+}
+
+.right-content {
+    margin-top: 50px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.right-content h2, .right-content p {
+    text-align: center;
+}
+
+.right-content p {
+    font-size: 18px;
+}
+
+.works {
+    padding: 15px 15px 0 0;
+
+    border-radius: 5px;
+}
+
+.works a {
+    text-decoration: none;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #082032;
+    width: 100%;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}

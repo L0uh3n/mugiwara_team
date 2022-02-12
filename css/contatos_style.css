@@ -1,0 +1,128 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    font-size: 100%;
+    background-color: #082032;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px 0 20px 20px;
+    background-color: #334756;
+}
+
+.logo {
+    width: 40%;
+    margin-left: 50px;
+}
+
+.logo h2 a {
+    text-decoration: none;
+    float: left;
+}
+
+.logo h2 a:hover {
+    color: red
+}
+
+.nav-header {
+    width: 60%;
+}
+
+.nav-header ul {
+    list-style: none;
+    float: right;
+}
+
+.nav-header li {
+    font-size: 16px;
+    display: inline-block;
+}
+
+.nav-header a {
+    text-decoration: none;
+    color: white;
+    padding: 26px;
+}
+
+.nav-header a:hover {
+    color: red;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 25px;
+    width: 300px;
+    height: 300px;
+}
+
+.main-contatos {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.main-contatos > h2 {
+    margin-top: 50px;
+}
+
+.main-contatos > p {
+    font-size: 18px;
+}
+
+.nav-footer {
+    margin: 100px 0 50px 0;
+}
+
+.nav-footer a {
+    font-size: 25px;
+    text-decoration: dashed;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.nav-footer a:hover {
+    color: red;
+}
+.nav-footer li {
+    display: inline-block;
+    padding: 0 20px 0 20px;
+    font-size: 25px;
+}
+
+footer.rodape {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+	background-color: #334756;
+	text-align: center;
+	font-size: 100%;
+    font-family: 'Poppins', sans-serif;
+	color:white;
+ 	padding: 20px 0 20px 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+@media  only screen and (max-width: 700px) {
+    .main-trabalhos {
+        flex-direction: column;
+    }
+}
