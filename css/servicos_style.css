@@ -59,9 +59,8 @@ header {
 
 .main-title {
     color: #ffffff;
-    margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .content-main {
@@ -87,8 +86,8 @@ figcaption {
 }
 
 img {
-    width: 400px;
-    height: 500px;
+    width: 250px;
+    height: 350px;
 }
 
 .nav-footer {
